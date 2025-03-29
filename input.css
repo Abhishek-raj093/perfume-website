@@ -3,3 +3,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+    @apply bg-bodyColor font-Jost text-textColor tracking-wider overflow-x-hidden;
+}
+
+section {
+    @apply py-16 md:py-28;
+}
+
+.nav-link {
+    @apply text-lg font-bold hover:text-titleColor duration-300;
+}
+
+/* active */
+.active {
+    @apply text-titleColor;
+}
