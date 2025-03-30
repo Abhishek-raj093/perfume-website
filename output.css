@@ -688,6 +688,14 @@ video {
   margin-top: 2.5rem;
 }
 
+.mt-20{
+  margin-top: 5rem;
+}
+
+.mt-3{
+  margin-top: 0.75rem;
+}
+
 .flex{
   display: flex;
 }
@@ -772,6 +780,10 @@ video {
 
 .flex-col{
   flex-direction: column;
+}
+
+.items-start{
+  align-items: flex-start;
 }
 
 .items-center{
@@ -1185,6 +1197,10 @@ section{
     margin-top: -8rem;
   }
 
+  .md\:mt-5{
+    margin-top: 1.25rem;
+  }
+
   .md\:hidden{
     display: none;
   }
@@ -1286,6 +1302,10 @@ section{
 
   .xl\:max-w-full{
     max-width: 100%;
+  }
+
+  .xl\:items-center{
+    align-items: center;
   }
 
   .xl\:px-12{
